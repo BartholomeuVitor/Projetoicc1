@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Alterado para branco para melhor contraste */
+    background-color: #007bff; /* Azul */
+    padding: 10px 0; /* Adicionado para espaçamento interno */
+}
+
+audio {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
