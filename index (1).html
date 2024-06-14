@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Git e GitHub</title>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>Git e GitHub</h1> 
+
+        </header>
+       
+        <main>
+            <section> 
+                <h2>Git</h2>  
+                <p><b>Git</b> é um sistema de controle de versão de arquivos; em outras palavras, é responsável por guardar o histórico de alterações sempre que alguém modificar algum arquivo que está sendo monitorado por ele.</p>
+            </section>
+           
+            <section>
+                <h2>GitHub</h2>
+                <p><b>GitHub</b> é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite colaboração entre desenvolvedoresutilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. </p>
+            </section>
+           
+            <section>
+                <h2>Comandos Git</h2>
+                <table>
+                    <tbody><tr>
+                        <th>Comando</th>
+                        <th>Exibição</th>
+                    </tr>
+                    <tr>
+                        <td><code>init</code></td>
+                        <td>Esta tag é usada para iniciar um repositório Git em um diretório. Quando você executa git init, ele cria um novo repositório Git na pasta especificada..</td>
+                    </tr>
+                    <tr>
+                        <td><code>clone</code></td>
+                        <td>Usado para criar uma cópia de um repositório Git existente. Quando você clona um repositório, você está criando uma cópia local de todo o histórico de commits, branches e arquivos do repositório remoto.</td>
+                    </tr>
+                    <tr>
+                        <td><code>branch</code></td>
+                        <td>Uma branch em Git é uma linha independente de desenvolvimento. Você pode criar novas branches para trabalhar em novas funcionalidades sem interferir no código principa. </td>
+                    </tr>
+                    <tr>
+                        <td><code>checkout</code></td>
+                        <td>Essa tag é usada para mudar de branch ou restaurar arquivos para um determinado commit. Você pode usá-la para navegar entre branches existentes ou criar uma nova branch a partir de um commit específico.</td>
+                    </tr>
+                    <tr>
+                        <td><code>status</code></td>
+                        <td>Ao executar git status, o Git mostra o estado atual do seu repositório. Ele lista os arquivos modificados, os arquivos prontos para serem adicionados ao próximo commit e outras informações úteis.</td>
+                    </tr>
+                    <tr>
+                        <td><code>diff</code></td>
+                        <td>Esta tag é usada para mostrar as diferenças entre arquivos. Quando você executa git diff, o Git exibe as alterações feitas em arquivos que ainda não foram adicionados ao próximo commit.</td>
+                    </tr>
+                    <tr>
+                        <td><code>add</code></td>
+                        <td>Usado para adicionar alterações ao próximo commit. Você usa git add para incluir as modificações feitas em arquivos específicos no próximo commit.</td>
+                    </tr>
+                    <tr>
+                        <td><code>commit</code></td>
+                        <td>Esta tag é usada para confirmar as alterações feitas no repositório. Quando você executa git commit, você está criando um novo commit contendo as modificações adicionadas com git add.</td>
+                    </tr>
+                    <tr>
+                        <td><code>push</code></td>
+                        <td>Utilizado para enviar commits locais para um repositório remoto. Você usa git push para enviar as alterações locais para um servidor Git remoto, como o GitHub ou o GitLab.</td>
+                    </tr>
+                    <tr>
+                        <td><code>pull</code></td>
+                        <td>Essa tag é usada para obter as alterações do repositório remoto e mesclá-las com o seu repositório local. O comando git pull é uma combinação de git fetch e git merge.</td>
+                    </tr>
+                    <tr>
+                        <td><code>revert</code></td>
+                        <td>Usado para desfazer um commit específico, criando um novo commit que reverte as alterações introduzidas pelo commit especificado.</td>
+                    </tr>
+                    <tr>
+                        <td><code>merge</code></td>
+                        <td>Utilizado para combinar duas ou mais branches. O comando git merge integra as alterações de uma branch em outra.</td>
+                    </tr>
+                    <tr>
+                        <td><code>stash</code></td>
+                        <td>Usado para armazenar temporariamente alterações que ainda não estão prontas para serem commitadas. É útil quando você precisa mudar de branch ou resolver um conflito antes de fazer commit das alterações.</td>
+                    </tr>
+                    <tr>
+                        <td><code>rm</code></td>
+                        <td>Esta tag é usada para remover arquivos do repositório Git. Quando você executa git rm, você está removendo um arquivo do controle de versão do Git.</td>
+                    </tr>
+                    <tr>
+                        <td><code>config</code></td>
+                        <td>Utilizado para configurar as opções do Git. Você pode usar git config para definir configurações como nome de usuário, endereço de e-mail, editor padrão, etc.</td>
+                    </tr>
+                    <tr>
+                        <td><code>reset</code></td>
+                        <td>Essa tag é usada para desfazer alterações no repositório. Você pode usar git reset para redefinir o HEAD para um commit específico, desfazendo commits ou alterando o estado do repositório.</td>
+                    </tr>
+                    <tr>
+                        <td><code>remote</code></td>
+                        <td>Usado para gerenciar repositórios remotos. Com git remote, você pode listar, adicionar e remover repositórios remotos.</td>
+                    </tr>
+                    <tr>
+                        <td><code>fetch</code></td>
+                        <td>Essa tag é usada para buscar alterações de um repositório remoto para o repositório local, sem mesclá-las com o seu trabalho atual. As alterações são armazenadas no seu repositório local, mas não são aplicadas no seu código atual.</td>
+                    </tr>
+                    <tr>
+                        <td><code>show</code></td>
+                        <td>Utilizado para mostrar informações sobre commits, tags ou branches específicos. Com git show, você pode ver as alterações introduzidas por um commit, o conteúdo de uma tag, entre outras informações.</td>
+                    </tr>Inst
+                    <tr>
+                        <td><code>help</code></td>
+                        <td>Essa tag é usada para obter ajuda sobre comandos Git específicos. Você pode executar git help para obter informações detalhadas sobre como usar um comando Git específico.</td>
+                    </tr>
+                    <tr>
+                        <td><code>rebase</code></td>
+                        <td>Usado para modificar o histórico de commits. Com git rebase, você pode reorganizar, combinar e editar commits antes de enviá-los para um repositório remoto.</td>
+                    </tr>
+                    <tr>
+                        <td><code>blame</code></td>
+                        <td>Esta tag é usada para mostrar quem modificou cada linha de um arquivo e em qual commit a modificação foi feita. É útil para rastrear a autoria de mudanças específicas.</td>
+                    </tr>
+                    <tr>
+                        <td><code>tag</code></td>
+                        <td>Utilizado para criar, listar e deletar tags no repositório Git. As tags são usadas para marcar pontos específicos na história do seu projeto, como versões lançadas.</td>
+                    </tr>
+                </tbody></table>
+            </section>
+           
+            <section>
+                <h2>Acesso GitHub</h2>
+                <p>Para configurar e acessar o GitHub, siga os passos abaixo:</p>
+            
+                    <li> Passo 1: Crie uma conta no <a href="https://github.com/">GitHub</a>.</li>
+                    <li>Passo 2: Instale o Git em seu computador.</li>
+                    <li>Passo 3: Configure seu nome de usuário e email:
+                        <pre><code>git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"</code></pre>
+                    </li>
+                    <li>Passo 4: Crie um novo repositório no GitHub e clone-o em seu computador:
+                        <pre><code>git clone https://github.com/seu_usuario/seu_repositorio.git</code></pre>
+                    </li>
+                </ol>
+            </section>
+           
+            <section>
+                <h2>Áudio e Video</h2>
+                <p>Abaixo, você encontra o audio.</p>
+                <ul>
+                  <li><a href="audio.html">Audio sobre Git</a></li>  
+                </ul>
+                <p>
+                    Abaixo, você encontra o video.
+                </p>
+                <ul>
+                <li>(Video)</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+
+    <footer>
+        <small>Lucas Morais Oliveira - 2024.1.08.044 e Bartholomeu Vitor Neto - 2024.1.08.043</small>
+    </footer>
+
+    <img src="pngwing.png"/>
+    <img src="git.png"/>
+</body>
+</html>
